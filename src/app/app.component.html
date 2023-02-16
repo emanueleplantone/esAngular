@@ -1,0 +1,14 @@
+<div *ngFor="let nano of nani">
+<p>{{nano.numero}}</p>
+<p>{{nano.nome}}</p>
+</div>
+
+<hr>
+
+<span [class]="classe">
+  {{stringa}}
+</span>
+
+<button (click)="stringa = stringa + ' ciao'">Click</button>
+
+<input type="text" [(ngModel)]="valore">
